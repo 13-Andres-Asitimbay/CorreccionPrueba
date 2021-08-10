@@ -1,8 +1,6 @@
-package pac; 
-
+package trabajo.grupal;
 import java.util.Scanner;
-
-public class VectorOrdenado2 {
+public class VectorOrdenado {
 	
 	void merge(int arr[], int beg, int mid, int end) {
 
@@ -58,7 +56,7 @@ public class VectorOrdenado2 {
 		int Z = teclado.nextInt();
 		int datos[] = new int[Z];
 		System.out.println(" ");
-		VectorOrdenado2 ob = new VectorOrdenado2();
+		VectorOrdenado ob = new VectorOrdenado();
 		for(int i = 0 ; i < Z ; i++) {
 			System.out.print("Ingrese un valor para la posicion " + i + ": ");
 			int N = teclado.nextInt();
