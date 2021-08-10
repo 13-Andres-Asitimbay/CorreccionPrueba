@@ -10,12 +10,12 @@ public class VectorOrdenado {
 		int LeftArray[] = new int[l];
 		int RightArray[] = new int[r];
 
-		for (int i = 0; i < l; i++)
+		for (int i = 0; i < l; i++) {
 			LeftArray[i] = arr[beg + i];
-
-		for (int j = 0; j < r; j++)
+		}
+		for (int j = 0; j < r; j++) {
 			RightArray[j] = arr[mid + 1 + j];
-
+		}
 		int i = 0, j = 0;
 		int k = beg;
 		while (i < l && j < r) {
