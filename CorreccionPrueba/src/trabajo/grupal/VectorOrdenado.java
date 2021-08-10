@@ -1,5 +1,5 @@
 package trabajo.grupal;
-import java.util.Scanner;
+import java.util.Scanner; 
 public class VectorOrdenado {
 	
 	void merge(int arr[], int beg, int mid, int end) {
