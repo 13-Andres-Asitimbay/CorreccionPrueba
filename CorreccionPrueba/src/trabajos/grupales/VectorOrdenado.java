@@ -1,4 +1,4 @@
-package trabajo.grupal;
+package trabajos.grupales;
 import java.util.Scanner; 
 public class VectorOrdenado {
 	
